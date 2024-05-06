@@ -1,0 +1,261 @@
+/* body style */
+body {
+    background-image: url('../images/f.jpg.jpg');
+    background-size: cover;
+    margin: 0px;
+}
+*{
+    font-size: 25px;
+}
+
+.section1 {
+    background-color: transparent;
+    color: white;
+    height: 250px;
+    width: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: inline;
+}
+.list{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.section1 .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section1 img {
+    width: 90px;
+    height: 90px;
+}
+
+ .list ul li{
+    display: inline;
+    list-style: none;
+    
+}
+
+.section1 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* allbody style  */
+
+.allbody {
+    margin-left: 12%;
+    justify-content: space-between;
+}
+
+
+.section2 {
+    
+    height: 620px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 98%;
+}
+
+.section2 .section2a {
+    width: 100%;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section2 .me h1 {
+    color:yellow;
+    padding-top: 0px;
+}
+.section2 h1{
+    font-size: 120px;
+}
+
+.section2 .me .h {
+    display: flex;
+}
+
+.section2 .me .h11 {
+    color: rgb(247, 17, 144);
+    margin-left: 9px;
+}
+
+
+.section3 {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    
+    height: 620px;
+    margin-top: 50px;
+    color: white;
+    width: 98%;
+}
+
+.section3 h1 {
+    text-align: center;
+}
+
+.section3 p {
+    padding: 20px;
+}
+
+
+.allpr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.section4 {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    
+    height: 100%;
+    width: 98%;
+    margin-top: 50px;
+    color: white;
+}
+
+.section4 .project {
+    width: 30%;
+    height: 100%;
+    border: 2px solid white;
+    margin: 20px;
+}
+
+.section4 h1 {
+    text-align: center;
+}
+
+.section4 .project p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+}
+
+
+.section4 .project img {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    height: 200px;
+    
+
+}
+
+
+.section5 {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    
+    height: 620px;
+    margin-top: 50px;
+    color: white;
+    width: 98%;
+}
+.section5 .b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section5 h1 {
+    text-align: center;
+}
+
+.section5 .christian {
+    
+    width: 40%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5 form {
+    
+    width: 40%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5 .ESTHER .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.section5 .ESTHER .cont .tex{
+    background-color: transparent;
+    margin-top: 20px;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+.section5 .ESTHER .cont input{
+    background-color: rgb(247, 17, 170);
+    width: 25%;
+    height: 60px;
+    margin-top: 20px;
+    
+    padding-right: 20px;
+    color: white;
+}
+.section5 .ESTHER .cont textarea{
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+::placeholder{
+    color: white;
+    padding-left: 30px;
+}
+
+.section5 .ESTHER .m img {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 150px;
+    
+    background-color: white;
+    border-radius: 100px;
+}
+
+footer {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    
+    height: 100%;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    width: 98%;
+}
+
+footer span {
+    font-size: 50px;
+}
+
